@@ -1,0 +1,7 @@
+How to Add a Site Admin
+ 
+Do rails c
+
+Put in User.first.update!(roles: "site_admin")
+
+or User.last.update!(roles: "site_admin") if your already logged in
